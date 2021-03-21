@@ -43,7 +43,7 @@ function aceptarServicio() {
             title: 'Servicio aceptado',
             icon: 'success'
         })
-        (servicios.estado).innerHTML == ('Nuevo');
+ 
 };
 
 function rechazarServicio() {
