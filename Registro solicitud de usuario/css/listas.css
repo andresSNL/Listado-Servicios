@@ -1,0 +1,59 @@
+html {
+    font-family: verdana;
+}
+
+body {
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 40%, rgba(0, 0, 0, 1) 100%);
+}
+
+.tabla {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 100%;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.filtrar {
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.tabla tr {
+    height: 35px;
+}
+
+.tabla thead tr {
+    background: #ffdd59;
+    color: black;
+}
+
+.tabla thead tr th {
+    padding-block: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+.tabla tbody tr {
+    border-bottom: 2px solid #ffdd59;
+}
+
+.tabla tbody tr td {
+    padding: 10px 0;
+    color: black;
+    background: white;
+    width: 280px;
+    text-align: center;
+}
+
+a {
+    padding: 5px;
+    color: #e1b12c;
+    text-decoration: none;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/listas.css">
+
+    <title>Lista administrador</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="crea-cuenta.html">Crear cuenta</a>
+                    </li>
+                    <li>
+                        <a href="inicio-sesion.html">Ingresar</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+    <main>
+        <h1>¡Tu lista de solicitudes de servicio!</h1>
+        <div class="filtrar">
+            <label for="txt-filtro">Filtrar</label>
+            <input type="text" id="txt-filtro">
+        </div>
+        <table id="tbl-servicios" class="tabla">
+            <thead>
+
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Servicio</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/serviciosDueño.js"></script>
+    <script src="js/listaDueños.js"></script>
+
+
+</body>
+
+</html>
